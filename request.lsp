@@ -1,12 +1,12 @@
-Content-Length: 249
+Content-Length: 247
 
 {
   "jsonrpc": "2.0",
   "method": "textDocument/didOpen",
   "params": {
-    "text_document": {
+    "textDocument": {
       "uri": "file:///C:/Users/Freyja/example.mylang",
-      "language_id": "mylang",
+      "languageId": "mylang",
       "version": 1,
       "text": "let f x y -> x+a;"
     }
